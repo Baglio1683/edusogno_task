@@ -1,0 +1,23 @@
+
+header{
+    height: 15vh;
+}
+
+main{
+    height: 85vh;
+    background-color:#CBDAEC;
+}
+
+.logo{
+    width: 200px;
+}
+
+form{
+    background-color: white;
+    padding: 1rem;
+}
+
+.input-line {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+}
