@@ -10,11 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
   }
 
-  // genera un token di reset univoco
+  //token di reset univoco
   $token = bin2hex(random_bytes(32));
-
-  // salva il token e l'indirizzo email dell'utente nel database
-  // questo dipende dal tuo sistema di autenticazione e di database
 
   // costruisci l'URL di reset della password
   $reset_url = sprintf('https://www.example.com/reset-password.php?token=%s', $token);
